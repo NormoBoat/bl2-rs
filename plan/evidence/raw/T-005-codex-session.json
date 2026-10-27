@@ -1,0 +1,129 @@
+{
+  "date": "2026-10-21",
+  "server_identity": {
+    "package": {
+      "name": "rea-agents",
+      "version": "6.7.0",
+      "root_path": "D:\\Projects\\bl2-rs\\.tools\\rea\\node_modules\\rea-agents",
+      "build_commit": null
+    },
+    "server": {
+      "name": "rea",
+      "version": "6.7.0",
+      "started_at": "2026-10-21T19:27:15.874Z",
+      "command_path": "D:\\Projects\\bl2-rs\\.tools\\rea\\node_modules\\rea-agents\\scripts\\rea.mjs"
+    },
+    "sdk": {
+      "server": "2.3.1",
+      "client_test": "2.3.1",
+      "core": "2.3.1"
+    },
+    "negotiated_protocol_version": "2025-06-18",
+    "client": {
+      "name": "codex-mcp-client",
+      "version": "0.163.0-alpha.10.2"
+    },
+    "skill": {
+      "name": "reverse-engineer-anything",
+      "expected_version": "42"
+    },
+    "catalog": {
+      "counts": {
+        "cli_commands": 153,
+        "mcp_tools": 207,
+        "mcp_prompts": 6
+      },
+      "digests": {
+        "tools_sha256": "af39310c9591bb981893ec0d2188b1bcf6e9cc8ba3ac513d5bbefc8ddcb85639",
+        "prompts_sha256": "7152916ab48bd2a9677a5ad9cdbde0a51dc53c113934952ad096e93f5f18aa7e",
+        "combined_sha256": "96d8f6e6ea1b1ba13557216624a3461c738729d53c79b4b0100d1f3a3a32441c"
+      }
+    },
+    "protocol_features": {
+      "progress": true,
+      "cancellation": true,
+      "elicitation": false
+    },
+    "alignment": {
+      "state": "unknown",
+      "reasons": [],
+      "remediation": "Supply expected package, catalog, or registration identity to compare the live server."
+    }
+  },
+  "ghidra": {
+    "status": "available",
+    "code": null,
+    "reason": null,
+    "diagnostics": {
+      "install_dir": "D:\\Projects\\bl2-rs\\.tools\\ghidra_12.1.4_PUBLIC",
+      "analyze_headless_path": "D:\\Projects\\bl2-rs\\.tools\\ghidra_12.1.4_PUBLIC\\support\\analyzeHeadless.bat",
+      "native_decompiler_path": "D:\\Projects\\bl2-rs\\.tools\\ghidra_12.1.4_PUBLIC\\Ghidra\\Features\\Decompiler\\os\\win_x86_64\\decompile.exe",
+      "application_properties_path": "D:\\Projects\\bl2-rs\\.tools\\ghidra_12.1.4_PUBLIC\\Ghidra\\application.properties",
+      "provider_version": "12.1.4",
+      "java_command": "D:\\Projects\\bl2-rs\\.tools\\jdk-21.0.12.1+1\\bin\\java.exe",
+      "java_home": "D:\\Projects\\bl2-rs\\.tools\\jdk-21.0.12.1+1",
+      "java_version": "21.0.12.1",
+      "java_vm_name": "OpenJDK 64-Bit Server VM",
+      "java_os_arch": "amd64",
+      "java_os_name": "Windows 11",
+      "platform": "win32",
+      "architecture": "x64",
+      "checks": [
+        {
+          "name": "configuration",
+          "ok": true,
+          "code": null,
+          "detail": "D:\\Projects\\bl2-rs\\.tools\\ghidra_12.1.4_PUBLIC"
+        },
+        {
+          "name": "platform",
+          "ok": true,
+          "code": null,
+          "detail": "win32"
+        },
+        {
+          "name": "architecture",
+          "ok": true,
+          "code": null,
+          "detail": "x64"
+        },
+        {
+          "name": "installation",
+          "ok": true,
+          "code": null,
+          "detail": "D:\\Projects\\bl2-rs\\.tools\\ghidra_12.1.4_PUBLIC\\Ghidra\\application.properties"
+        },
+        {
+          "name": "version",
+          "ok": true,
+          "code": null,
+          "detail": "12.1.4"
+        },
+        {
+          "name": "headless",
+          "ok": true,
+          "code": null,
+          "detail": "D:\\Projects\\bl2-rs\\.tools\\ghidra_12.1.4_PUBLIC\\support\\analyzeHeadless.bat"
+        },
+        {
+          "name": "native_decompiler",
+          "ok": true,
+          "code": null,
+          "detail": "D:\\Projects\\bl2-rs\\.tools\\ghidra_12.1.4_PUBLIC\\Ghidra\\Features\\Decompiler\\os\\win_x86_64\\decompile.exe reports pe x86_64, which matches win32/x64"
+        },
+        {
+          "name": "java",
+          "ok": true,
+          "code": null,
+          "detail": "21.0.12.1; 64-bit; JDK; D:\\Projects\\bl2-rs\\.tools\\jdk-21.0.12.1+1; accepted a 64-bit full JDK 21 or newer"
+        }
+      ]
+    }
+  },
+  "ponytail": {
+    "path": ".agents/skills/ponytail/SKILL.md",
+    "sha256": "5171F4A7201474C47C77A240A26A2A3CD07529E52281F4FDB7513D8B04383D2E",
+    "mode": "full",
+    "visible_in_skill_catalog": true
+  }
+}

@@ -1,0 +1,205 @@
+
+{
+    "class default": 1,
+    "platform data batches=2": 36,
+    "platform data batches=3": 90,
+    "platform data batches=4": 518,
+    "platform data batches=5": 329,
+    "platform data batches=6": 158,
+    "platform data batches=7": 48,
+    "platform data batches=8": 10,
+    "terrain components": 1189,
+}
+test terrain_components ... ok
+models=5747 surfs=47157 nodes=59213 errors={}
+test all_models ... ok
+worlds=703 polys objects=5747 polygons=34003
+test all_worlds_and_polys ... ok
+{
+    "brush convex elements=0": 4736,
+    "brush convex elements=1": 160,
+    "brush convex elements=2": 24,
+    "lightmap none": 1898,
+    "lightmap texture": 7460,
+    "model component without native data (flags 0x200)": 1,
+    "model components": 3226,
+}
+test model_and_brush_components ... ok
+{
+    "decal components": 5924,
+    "lightmap none": 11084,
+    "lightmap vertex": 40,
+    "no baked geometry (0 indices, 0 vertices), some triangles: TerrainComponent": 451,
+    "receiver BlockingMeshComponent": 54,
+    "receiver ModelComponent": 3161,
+    "receiver StaticMeshComponent": 7458,
+    "receiver TerrainComponent": 451,
+    "shadow map ShadowMap1D": 38,
+    "unknown [0, -1]": 1685,
+    "unknown [0, 0]": 7512,
+    "unknown [1, -1]": 1009,
+    "unknown [2, -1]": 354,
+    "unknown [3, -1]": 248,
+    "unknown [4, -1]": 88,
+    "unknown [5, -1]": 46,
+    "unknown [6, -1]": 21,
+    "unknown [7, -1]": 17,
+    "unknown [8, -1]": 144,
+}
+test decal_components ... ok
+204 BlockingMeshCollectionActor arrays=["BlockingMeshComponents"] bytes per component: 84
+1 BlockingMeshCollectionActor arrays=[] bytes per component: no components, tail 0
+1 StaticLightCollectionActor arrays=["Components"] bytes per component: no components, tail 0
+518 StaticLightCollectionActor arrays=["LightComponents"] bytes per component: 64
+3223 StaticMeshCollectionActor arrays=["StaticMeshComponents"] bytes per component: 84
+1 StaticMeshCollectionActor arrays=[] bytes per component: no components, tail 0
+test collection_actors ... ok
+{
+    "lods=1 rest=0": 118,
+}
+test wiring_meshes ... ok
+{
+    "DynamicPylon": 3,
+    "FluidSurfaceComponent": 3,
+    "Pylon": 1322,
+    "SeqAct_Interp": 2168,
+    "ShadowMap1D": 8656,
+    "ShadowMap1D sample < 0": 36,
+    "ShadowMap1D sample > 1": 553941,
+    "ShadowMap1D sample in [0, 1]": 2329040,
+    "WillowSeqAct_DayNightCycle": 76,
+    "WillowSeqAct_InterpMenu": 2,
+}
+test shadow_maps_and_zero_tails ... ok
+{
+    "class default": 1,
+    "material ids=1 unknown=0 records=0": 95,
+    "material ids=1 unknown=0 records=1": 2591,
+    "material ids=1 unknown=1 records=1": 4,
+    "terrains": 429,
+    "weight map texture TerrainMaterial": 1502,
+    "weight map texture import": 123,
+    "weighted texture TerrainWeightMapTexture": 1625,
+}
+test terrains ... ok
+levels=704 actors=124460
+{"gbx actor Actor": 5035, "model Model": 704, "modelcomponent ModelComponent": 3226, "sequence Sequence": 698, "sequence null": 1}
+trailer sizes: {73: 218, 81: 486}
+{"nonzero trailer RobotSlaughter_P.upk": 1}
+test all_levels ... ok
+{
+    "PolyDataIdx in range": 172111,
+    "PolyDataIdx none": 2898107,
+    "class default": 1,
+    "cross-level connections": 89798,
+    "mesh base InterpActor": 1,
+    "mesh base WillowElevator": 1,
+    "mesh base null": 308,
+    "nav meshes": 310,
+    "obstacle GBXCrossLevelReferenceContainer": 2431,
+    "polys": 3070218,
+    "special move mover CoverLink": 50,
+    "special move mover PhysicsJumpNode": 1388,
+    "special move mover WillowDynamicNavMeshConnectionPoint": 1,
+    "special move mover null": 5595,
+    "special mover GBXCrossLevelReferenceContainer": 5364,
+}
+test nav_meshes ... ok
+{
+    "default location BlockingMeshCollectionActor": 204,
+    "default location Brush": 2,
+    "default location CameraActor": 3,
+    "default location Emitter": 24,
+    "default location GBXNavMesh": 310,
+    "default location InterpActor": 15,
+    "default location LightShafts": 36,
+    "default location LightmassImportanceVolume": 4,
+    "default location PostProcessVolume": 1,
+    "default location SkeletalMeshActor": 45,
+    "default location StaticLightCollectionActor": 518,
+    "default location StaticMeshActor": 27,
+    "default location StaticMeshCollectionActor": 3223,
+    "default location VehicleLifetimeManager": 17,
+    "default location WillowAIMoveNode": 8,
+    "default location WillowInteractiveObject": 1,
+    "default location WillowTrigger": 4,
+    "default location WiringActor": 15,
+    "default location WorldDiscoveryArea": 2,
+    "default location WorldInfo": 683,
+    "listed actors": 124460,
+    "listed but not an owned actor": 0,
+    "location tagged found": 119318,
+    "location via archetype class default": 5142,
+    "non-finite location WillowReplicatedAmbientSound Some([NaN, NaN, NaN]) in testingzone_audio": 1,
+    "unlisted BlockingMeshActor flags 0x0": 5376,
+    "unlisted PopulationOpportunityDen flags 0x0": 3,
+    "unlisted SkeletalMeshActor flags 0x0": 6,
+    "unlisted StaticMeshActor flags 0x0": 835,
+    "worldinfo count 0 first slot null": 1,
+    "worldinfo count 1 first slot worldinfo": 703,
+}
+packages with a level=703 streamed=616 persistent (never streamed)=87
+persistent: ["anemoneglobals", "ash_p", "backburner_p", "banditslaughter_p", "benchmark", "boss_cliffs_p", "boss_volcano_p", "castleexterior_p", "castlekeep_p", "caverns_p", "cove_p", "craterlake_p", "creatureslaughter_p", "dam_p", "damtop_p", "dark_forest_p", "dead_forest_p", "distillery_p", "docks_p", "dungeon_p", "dungeonraid_p", "easter_p", "exampleentry", "fakeentry", "finalbossascent_p", "fridge_p", "frost_p", "fyrestone_p", "gaiussanctuary_p", "glacial_p", "grass_cliffs_p", "grass_lynchwood_p", "grass_p", "helios_p", "hunger_p", "hyperioncity_p", "hypinterlude_p", "ice_p", "icecanyon_p", "interlude_p", "iris_dl1_p", "iris_dl1_tas_p", "iris_dl2_interior_p", "iris_dl2_p", "iris_dl3_p", "iris_hub2_p", "iris_hub_p", "iris_moxxi_p", "loader", "luckys_p", "menumap", "mines_p", "olddust_p", "orchid_caves_p", "orchid_oasistown_p", "orchid_refinery_p", "orchid_saltflats_p", "orchid_shipgraveyard_p", "orchid_spire_p", "orchid_wormbelly_p", "outwash_p", "pandorapark_p", "pumpkin_patch_p", "researchcenter_p", "robotslaughter_p", "sage_cliffs_p", "sage_hyperionship_p", "sage_powerstation_p", "sage_rockforest_p", "sage_underground_p", "sanctintro_p", "sanctuary_hole_p", "sanctuary_p", "sanctuaryair_p", "sandworm_p", "sandwormlair_p", "southernshelf_p", "southpawfactory_p", "stockade_p", "templeslaughter_p", "testingzone_p", "thresherraid_p", "tundraexpress_p", "tundratrain_p", "village_p", "vogchamber_p", "xmas_p"]
+missing streaming packages: {}
+test actors_and_streaming ... ok
+{
+    "BlockingMeshComponent lods=0": 6263,
+    "BlockingMeshComponent lods=1": 3673,
+    "CoverMeshComponent lods=0": 1,
+    "GearboxStaticMeshComponent lods=0": 1,
+    "InstancedStaticMeshComponent lods=0": 1,
+    "InteractiveFoliageComponent lods=0": 2,
+    "InteractiveFoliageComponent lods=1": 1,
+    "SplineMeshComponent lods=0": 1,
+    "SplineMeshComponent lods=1": 11,
+    "StaticMeshComponent lods=0": 59353,
+    "StaticMeshComponent lods=1": 292876,
+    "StaticMeshComponent lods=2": 74,
+    "StaticMeshComponent lods=3": 409,
+    "lightmap none": 6021,
+    "lightmap texture": 271672,
+    "lightmap texture ref LightMapTexture2D": 543344,
+    "lightmap texture ref null": 271672,
+    "lightmap vertex": 20244,
+    "override vertex colors stride=4": 4790,
+    "shadow map ShadowMap2D": 125390,
+    "shadow vertex buffer ShadowMap1D": 8676,
+    "vertex directional flags=0x0 bytes/sample=8": 20244,
+    "vertex owner StaticMeshComponent outer=false": 159,
+    "vertex owner self": 20085,
+    "vertex simple flags=0x0 bytes/sample=0": 20244,
+}
+test static_mesh_components ... ok
+{
+    "null reference": 1,
+    "ordinary reference to BlockingMeshActor": 861,
+    "ordinary reference to BlockingMeshReplicatedActor": 5,
+    "ordinary reference to WillowDynamicPathBlockingVolume": 62,
+    "packages with export GUIDs": 188,
+    "packages with import GUIDs": 157,
+    "references": 6940,
+    "resolved to BlockingMeshActor": 267,
+    "resolved to BlockingMeshReplicatedActor": 81,
+    "resolved to CoverLink": 469,
+    "resolved to PhysicsJumpNode": 4894,
+    "resolved to WillowDynamicNavMeshConnectionPoint": 1,
+    "resolved to WillowDynamicPathBlockingVolume": 299,
+}
+test cross_level_references ... ok
+
+test result: ok. 14 passed; 0 failed; 0 ignored; 0 measured; 3 filtered out; finished in 43.87s
+
+    "null reference": 1,
+    "ordinary reference to BlockingMeshActor": 861,
+    "ordinary reference to BlockingMeshReplicatedActor": 5,
+    "ordinary reference to WillowDynamicPathBlockingVolume": 62,
+    "packages with export GUIDs": 188,
+    "packages with import GUIDs": 157,
+    "references": 6940,
+    "resolved to BlockingMeshActor": 267,
+    "resolved to BlockingMeshReplicatedActor": 81,
+    "resolved to CoverLink": 469,
+    "resolved to PhysicsJumpNode": 4894,
+    "resolved to WillowDynamicNavMeshConnectionPoint": 1,
+    "resolved to WillowDynamicPathBlockingVolume": 299,
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 16 filtered out; finished in 28.58s

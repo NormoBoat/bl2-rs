@@ -1,0 +1,165 @@
+﻿static_meshes=40090 ok=40090
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 22.21s
+after_lods=1 = 40074
+after_lods=2 = 7
+after_lods=3 = 9
+color_stride=0 has_colors=false = 35555
+color_stride=4 has_colors=true = 4560
+colors_per_vertex=1 = 4477
+colors_per_vertex=2 = 83
+element_unknown_byte=0 = 42544
+internal_version=18 = 40090
+kdop_node_size=6 = 40090
+lod_count=1 = 40074
+lod_count=2 = 7
+lod_count=3 = 9
+trailing=0 vpv=10 factors=4 = 4
+trailing=0 vpv=11 factors=4 = 6
+trailing=0 vpv=12 factors=4 = 21
+trailing=0 vpv=13 factors=4 = 7
+trailing=0 vpv=14 factors=4 = 10
+trailing=0 vpv=15 factors=4 = 1
+trailing=0 vpv=157 factors=4 = 1
+trailing=0 vpv=16 factors=4 = 2
+trailing=0 vpv=18 factors=4 = 2
+trailing=0 vpv=19 factors=4 = 5
+trailing=0 vpv=2 factors=4 = 106
+trailing=0 vpv=20 factors=4 = 2
+trailing=0 vpv=21 factors=4 = 3
+trailing=0 vpv=22 factors=4 = 8
+trailing=0 vpv=23 factors=4 = 4
+trailing=0 vpv=24 factors=4 = 6
+trailing=0 vpv=25 factors=4 = 33
+trailing=0 vpv=26 factors=4 = 6
+trailing=0 vpv=29 factors=4 = 1
+trailing=0 vpv=3 factors=4 = 73
+trailing=0 vpv=32 factors=4 = 2
+trailing=0 vpv=33 factors=4 = 12
+trailing=0 vpv=34 factors=4 = 2
+trailing=0 vpv=35 factors=4 = 1
+trailing=0 vpv=36 factors=4 = 2
+trailing=0 vpv=4 factors=4 = 70
+trailing=0 vpv=40 factors=4 = 4
+trailing=0 vpv=42 factors=4 = 1
+trailing=0 vpv=43 factors=4 = 2
+trailing=0 vpv=44 factors=4 = 1
+trailing=0 vpv=5 factors=4 = 32
+trailing=0 vpv=6 factors=4 = 50
+trailing=0 vpv=7 factors=4 = 50
+trailing=0 vpv=75 factors=4 = 1
+trailing=0 vpv=78 factors=4 = 2
+trailing=0 vpv=8 factors=4 = 33
+trailing=0 vpv=82 factors=4 = 2
+trailing=0 vpv=9 factors=4 = 29
+trailing=1 vpv=0 factors=4 = 8580
+trailing=1 vpv=1 factors=4 = 10560
+trailing=1 vpv=10 factors=4 = 441
+trailing=1 vpv=11 factors=4 = 334
+trailing=1 vpv=111 factors=4 = 2
+trailing=1 vpv=113 factors=4 = 2
+trailing=1 vpv=114 factors=4 = 3
+trailing=1 vpv=115 factors=4 = 1
+trailing=1 vpv=116 factors=4 = 1
+trailing=1 vpv=117 factors=4 = 2
+trailing=1 vpv=119 factors=4 = 1
+trailing=1 vpv=12 factors=4 = 222
+trailing=1 vpv=120 factors=4 = 2
+trailing=1 vpv=121 factors=4 = 2
+trailing=1 vpv=122 factors=4 = 2
+trailing=1 vpv=123 factors=4 = 1
+trailing=1 vpv=124 factors=4 = 1
+trailing=1 vpv=125 factors=4 = 1
+trailing=1 vpv=128 factors=4 = 1
+trailing=1 vpv=13 factors=4 = 224
+trailing=1 vpv=136 factors=4 = 2
+trailing=1 vpv=14 factors=4 = 100
+trailing=1 vpv=142 factors=4 = 2
+trailing=1 vpv=145 factors=4 = 1
+trailing=1 vpv=15 factors=4 = 149
+trailing=1 vpv=157 factors=4 = 1
+trailing=1 vpv=16 factors=4 = 82
+trailing=1 vpv=164 factors=4 = 1
+trailing=1 vpv=165 factors=4 = 1
+trailing=1 vpv=17 factors=4 = 149
+trailing=1 vpv=173 factors=4 = 5
+trailing=1 vpv=18 factors=4 = 104
+trailing=1 vpv=19 factors=4 = 55
+trailing=1 vpv=2 factors=4 = 7168
+trailing=1 vpv=20 factors=4 = 93
+trailing=1 vpv=21 factors=4 = 129
+trailing=1 vpv=22 factors=4 = 59
+trailing=1 vpv=226 factors=4 = 1
+trailing=1 vpv=23 factors=4 = 35
+trailing=1 vpv=24 factors=4 = 32
+trailing=1 vpv=25 factors=4 = 99
+trailing=1 vpv=26 factors=4 = 33
+trailing=1 vpv=27 factors=4 = 17
+trailing=1 vpv=28 factors=4 = 32
+trailing=1 vpv=29 factors=4 = 47
+trailing=1 vpv=3 factors=4 = 3300
+trailing=1 vpv=30 factors=4 = 56
+trailing=1 vpv=31 factors=4 = 25
+trailing=1 vpv=32 factors=4 = 141
+trailing=1 vpv=33 factors=4 = 31
+trailing=1 vpv=34 factors=4 = 120
+trailing=1 vpv=35 factors=4 = 9
+trailing=1 vpv=36 factors=4 = 8
+trailing=1 vpv=37 factors=4 = 4
+trailing=1 vpv=38 factors=4 = 33
+trailing=1 vpv=39 factors=4 = 4
+trailing=1 vpv=4 factors=4 = 2605
+trailing=1 vpv=41 factors=4 = 1
+trailing=1 vpv=42 factors=4 = 20
+trailing=1 vpv=43 factors=4 = 2
+trailing=1 vpv=44 factors=4 = 4
+trailing=1 vpv=45 factors=4 = 20
+trailing=1 vpv=47 factors=4 = 10
+trailing=1 vpv=48 factors=4 = 3
+trailing=1 vpv=49 factors=4 = 17
+trailing=1 vpv=5 factors=4 = 1493
+trailing=1 vpv=50 factors=4 = 3
+trailing=1 vpv=51 factors=4 = 1
+trailing=1 vpv=52 factors=4 = 6
+trailing=1 vpv=53 factors=4 = 14
+trailing=1 vpv=54 factors=4 = 44
+trailing=1 vpv=55 factors=4 = 2
+trailing=1 vpv=56 factors=4 = 1
+trailing=1 vpv=6 factors=4 = 834
+trailing=1 vpv=60 factors=4 = 6
+trailing=1 vpv=62 factors=4 = 2
+trailing=1 vpv=64 factors=4 = 9
+trailing=1 vpv=65 factors=4 = 3
+trailing=1 vpv=66 factors=4 = 1
+trailing=1 vpv=67 factors=4 = 2
+trailing=1 vpv=69 factors=4 = 6
+trailing=1 vpv=7 factors=4 = 719
+trailing=1 vpv=70 factors=4 = 1
+trailing=1 vpv=71 factors=4 = 2
+trailing=1 vpv=74 factors=4 = 18
+trailing=1 vpv=75 factors=4 = 24
+trailing=1 vpv=76 factors=4 = 1
+trailing=1 vpv=78 factors=4 = 2
+trailing=1 vpv=8 factors=4 = 564
+trailing=1 vpv=80 factors=4 = 2
+trailing=1 vpv=81 factors=4 = 2
+trailing=1 vpv=85 factors=4 = 18
+trailing=1 vpv=9 factors=4 = 518
+trailing=1 vpv=95 factors=4 = 1
+trailing=1 vpv=98 factors=4 = 1
+unknown_12_zero=true = 40090
+unknown_9=[00, 00, 00, 00, 00, 00, 00, 00, 00] = 36716
+unknown_9=[00, 00, 00, 00, 00, 1a, 1c, a3, 56] = 2
+unknown_9=[00, 00, 00, 00, 00, 8b, 01, 6e, df] = 34
+unknown_9=[00, 00, 00, 00, 00, b6, 12, 58, 4d] = 3
+unknown_9=[00, 00, 00, 00, 00, bc, 3b, 72, 73] = 6
+unknown_9=[00, 00, 00, 00, 00, ed, 8b, 97, 77] = 17
+unknown_9=[01, 00, 00, 00, 00, 00, 00, 00, 00] = 992
+unknown_9=[02, 00, 00, 00, 00, 00, 00, 00, 00] = 811
+unknown_9=[03, 00, 00, 00, 00, 00, 00, 00, 00] = 517
+unknown_9=[04, 00, 00, 00, 00, 00, 00, 00, 00] = 992
+uv_stride=12 tex_coords=1 full=false = 16689
+uv_stride=16 tex_coords=1 full=true = 126
+uv_stride=16 tex_coords=2 full=false = 22828
+uv_stride=20 tex_coords=3 full=false = 366
+uv_stride=24 tex_coords=2 full=true = 3
+uv_stride=24 tex_coords=4 full=false = 103

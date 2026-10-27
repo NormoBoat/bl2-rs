@@ -1,0 +1,91 @@
+T-021b FaceFX archives, 2026-10-24. Code: crates/bl2-formats/src/facefx.rs. Scans:
+== cargo test --release -p bl2-formats --test vorbis_scan facefx_animations -- --ignored --nocapture
+ 10439 blend 0.16 0.22
+ 10439 bone weights 0
+ 10438 classes ["FxObject:0@26", "FxAnim:7@72", "FxNamedObject:0@95", "FxName:1@100", "FxAnimCurve:1@109"]
+     1 classes ["FxObject:0@26", "FxAnim:7@72", "FxNamedObject:0@95", "FxName:1@100"]
+168133 curve word 0x0
+   932 end - sound length < 0 by 1 s
+   108 end - sound length < 0 by 2 s
+     1 end - sound length < 0 by 3 s
+     2 end - sound length < 0 by 4 s
+     7 end - sound length < 0 by 5 s
+     3 end - sound length < 0 by 6 s
+     2 end - sound length < 0 by 7 s
+     1 end - sound length < 0 by 8 s
+  4902 end - sound length > 0 by 1 s
+     1 end - sound length > 0 by 10 s
+     1 end - sound length > 0 by 15 s
+  1293 end - sound length > 0 by 2 s
+    43 end - sound length > 0 by 3 s
+  3143 end - sound length within 0.05 s
+ 10439 header Unreal Engine 3 Licensee / Unreal Engine 3 Project / 1000 1
+   259 start +0.0
+     5 start +0.1
+     3 start +0.2
+     1 start +0.3
+     3 start +0.4
+     2 start +0.6
+     1 start +0.7
+     1 start +1.1
+     1 start +1.4
+   141 start -0.0
+   907 start -0.1
+  3436 start -0.2
+  3502 start -0.3
+   685 start -0.4
+   499 start -0.5
+   346 start -0.6
+   273 start -0.7
+   149 start -0.8
+   116 start -0.9
+    71 start -1.0
+    32 start -1.1
+     5 start -1.2
+     1 start -1.3
+ 10439 strings_a [true, true] word_a 0xffffffff strings_b ["None", ""] word_b 0xffffffff
+10439 distinct animations, 168133 curves, 2338556 keys
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 7 filtered out; finished in 3.09s
+== cargo test --release -p bl2-formats --test level_scan facefx_archives -- --ignored --nocapture
+GenericFemale_FaceFX         bones  52 nodes   21 inputs    12 props   0 tables 21 groups [("Default", 0)] phonemes 212/ 6
+Allium_MrTorgue              bones  43 nodes   21 inputs    12 props   0 tables 21 groups [("Default", 0)] phonemes 212/ 6
+Marcus                       bones  54 nodes   21 inputs    12 props   0 tables 21 groups [("Default", 0)] phonemes 212/ 6
+GenericMale_FaceFX           bones  52 nodes   21 inputs    12 props   0 tables 21 groups [("Default", 0)] phonemes 212/ 6
+Brick                        bones  52 nodes   21 inputs    12 props   0 tables 21 groups [("Default", 0)] phonemes 212/ 6
+Ellie                        bones  52 nodes   21 inputs    12 props   0 tables 21 groups [("Default", 0)] phonemes 212/ 6
+Lilith                       bones  52 nodes   30 inputs    12 props   0 tables 30 groups [("Default", 0)] phonemes 212/ 6
+Mordecai                     bones  41 nodes   30 inputs    12 props   0 tables 30 groups [("Default", 0)] phonemes 212/ 6
+Moxxi                        bones  52 nodes   27 inputs    16 props   0 tables 27 groups [("Default", 0)] phonemes 134/ 9
+SirHammerlock_FaceFX         bones  54 nodes   21 inputs    12 props   0 tables 21 groups [("Default", 0)] phonemes 212/ 6
+TinyTina                     bones  52 nodes   27 inputs    16 props   0 tables 27 groups [("Default", 0)] phonemes 134/ 9
+Zed                          bones  30 nodes   21 inputs    12 props   0 tables 21 groups [("Default", 0)] phonemes 212/ 6
+GenericMale_FaceFX           bones  52 nodes   21 inputs    12 props   0 tables 21 groups [("Default", 0)] phonemes 212/ 6
+Tannis                       bones  52 nodes   21 inputs    12 props   0 tables 21 groups [("Default", 0)] phonemes 212/ 6
+Roland_FaceFX                bones  52 nodes   21 inputs    12 props   0 tables 21 groups [("Default", 0)] phonemes 212/ 6
+VoG_FaceFX                   bones  52 nodes   21 inputs    12 props   0 tables 21 groups [("Default", 0)] phonemes 212/ 6
+Torge_Aster                  bones  42 nodes   28 inputs    16 props   0 tables 28 groups [("Default", 0)] phonemes 134/ 9
+HandsomeJack                 bones  52 nodes   21 inputs    12 props   0 tables 21 groups [("Default", 0)] phonemes 212/ 6
+Piston                       bones  36 nodes   21 inputs    12 props   0 tables 21 groups [("Default", 0)] phonemes 212/ 6
+Skel_PyroPete_FaceFX         bones   0 nodes    0 inputs     0 props   0 tables  0 groups [("Default", 0)] phonemes   0/ 0
+HandsomeJack                 bones  52 nodes   21 inputs    12 props   0 tables 21 groups [("Default", 0)] phonemes 212/ 6
+MotorMama                    bones  42 nodes   21 inputs    12 props   0 tables 21 groups [("Default", 0)] phonemes 212/ 6
+Scooter_FaceFX               bones  52 nodes   21 inputs    12 props   0 tables 21 groups [("Default", 0)] phonemes 212/ 6
+TectorHodunk_FaceFX          bones  52 nodes   21 inputs    12 props   0 tables 21 groups [("Default", 0)] phonemes 212/ 6
+ShadyDealer                  bones  54 nodes   12 inputs     0 props   0 tables 12 groups [("Default", 0)] phonemes 134/ 9
+Skel_Pirate_Queen_FaceFX     bones  54 nodes   21 inputs    12 props   0 tables 21 groups [("Default", 0)] phonemes 212/ 6
+HerbertHermit                bones  52 nodes   21 inputs    12 props   0 tables 21 groups [("Default", 0)] phonemes 212/ 6
+ProfessorNakayama_FaceFX     bones  54 nodes   21 inputs    12 props   0 tables 21 groups [("Default", 0)] phonemes 212/ 6
+HandsomeJack                 bones  52 nodes   21 inputs    12 props   0 tables 21 groups [("Default", 0)] phonemes 212/ 6
+Sheriff                      bones  53 nodes   21 inputs    12 props   0 tables 21 groups [("Default", 0)] phonemes 212/ 6
+   28 FaceFXAsset classes ["FxBone:0", "FxCompiledFaceGraph:0", "FxObject:0", "FxActor:3", "FxMasterBoneList:2", "FxNamedObject:0", "FxName:1", "FxPhonemeMap:1", "FxAnimGroup:0", "FxLinkFnParameters:1"]
+    1 FaceFXAsset classes ["FxBone:0", "FxCompiledFaceGraph:0", "FxObject:0", "FxActor:3", "FxMasterBoneList:2", "FxNamedObject:0", "FxName:1", "FxPhonemeMap:1", "FxAnimGroup:0"]
+    1 FaceFXAsset classes ["FxCompiledFaceGraph:0", "FxObject:0", "FxActor:3", "FxMasterBoneList:2", "FxNamedObject:0", "FxName:1", "FxPhonemeMap:1", "FxAnimGroup:0"]
+   30 FaceFXAsset header 1000 1
+  130 link fn 1 params 2
+   56 link fn 2 params 1
+   50 link fn 3 params 1
+  106 link fn 4 params 1
+    6 link fn 5 params 0
+  288 node kind 0
+  349 node kind 4
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 19 filtered out; finished in 21.00s

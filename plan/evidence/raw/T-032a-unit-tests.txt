@@ -1,0 +1,62 @@
+   Compiling bl2-formats v0.1.0 (D:\Projects\bl2-rs\crates\bl2-formats)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 3.19s
+     Running unittests src\lib.rs (target\debug\deps\bl2_formats-cf8354962e6cdd38.exe)
+
+running 6 tests
+test lzo::tests::rejects_wrong_size_and_truncation ... ok
+test properties::tests::rejects_malformed_scalar_payloads ... ok
+test lzo::tests::literals_then_overlapping_match_then_end ... ok
+test ini::tests::prefixes_follow_ue3_rules ... ok
+test properties::tests::strings_and_unsupported_composites ... ok
+test properties::tests::scalar_values_preserve_bits_names_and_references ... ok
+
+test result: ok. 6 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests\ini_compare.rs (target\debug\deps\ini_compare-583056332cc44d3e.exe)
+
+running 1 test
+test merged_defaults_match_generated_files ... ignored, needs BL2_INSTALL and BL2_USER_CONFIG
+
+test result: ok. 0 passed; 0 failed; 1 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests\install_scan.rs (target\debug\deps\install_scan-5b9b1717cd3bd2d0.exe)
+
+running 1 test
+test every_package_parses ... ignored, needs the user's Borderlands 2 install in BL2_INSTALL
+
+test result: ok. 0 passed; 0 failed; 1 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests\property_scan.rs (target\debug\deps\property_scan-bbb590d902925206.exe)
+
+running 1 test
+test every_export_has_readable_tagged_properties ... ignored, needs the user's Borderlands 2 install in BL2_INSTALL
+
+test result: ok. 0 passed; 0 failed; 1 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests\script_scan.rs (target\debug\deps\script_scan-978d818a311c57c8.exe)
+
+running 1 test
+test every_script_definition_parses ... ignored, needs the user's Borderlands 2 install in BL2_INSTALL
+
+test result: ok. 0 passed; 0 failed; 1 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests\static_mesh_scan.rs (target\debug\deps\static_mesh_scan-34a6eb6dfc5177dd.exe)
+
+running 1 test
+test every_static_mesh_parses ... ignored, needs the user's Borderlands 2 install in BL2_INSTALL
+
+test result: ok. 0 passed; 0 failed; 1 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests\texture_scan.rs (target\debug\deps\texture_scan-6743884a849eeff1.exe)
+
+running 1 test
+test every_texture_mip_is_consistent ... ignored, needs the user's Borderlands 2 install in BL2_INSTALL
+
+test result: ok. 0 passed; 0 failed; 1 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+   Doc-tests bl2_formats
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+

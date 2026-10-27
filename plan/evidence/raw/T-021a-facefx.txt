@@ -1,0 +1,21 @@
+T-021a FaceFX, 2026-10-23
+73 FaceFXAnimSet: first array empty, second empty
+165 FaceFXAsset: first array FaceFX archive, second empty
+168 SkeletalMesh with ["FaceFXAsset"]
+165 archive version 1740
+archive sizes: min Some(362) median Some(18709) max Some(21514) total 2940708
+FaceFX classes named in archives (archives naming each): {"FxActor": 165, "FxAnimGroup": 165, "FxBone": 162, "FxCompiledFaceGraph": 165, "FxLinkFnParameters": 161, "FxMasterBoneList": 165, "FxName": 165, "FxNamedObject": 165, "FxObject": 165, "FxPhonemeMap": 165}
+test facefx_objects ... ok
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 17 filtered out; finished in 20.62s
+16594 archive version 1740
+45158 embedded media with 0 FaceFX animation(s)
+610 embedded media with 1 FaceFX animation(s)
+59803 stream media with 0 FaceFX animation(s)
+15984 stream media with 1 FaceFX animation(s)
+78236 text label
+1 text label (empty)
+13 text label Tempo:…
+distinct media ids with FaceFX: 11176, archive bytes 46832752
+classes named in animation archives (archives naming each): {"FxAnim": 11176, "FxAnimCurve": 11158, "FxName": 11176, "FxNamedObject": 11176, "FxObject": 11176}
+test cue_labels_and_facefx ... ok
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 4 filtered out; finished in 2.73s

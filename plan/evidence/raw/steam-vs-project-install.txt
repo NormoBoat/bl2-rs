@@ -1,0 +1,2 @@
+﻿steam_files=13926 manifest_files=13925 differences=1
+EXTRA_IN_STEAM	BL2LauncherLog.txt	7

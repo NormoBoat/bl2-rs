@@ -1,0 +1,21 @@
+50 block=1024 fft=2048 rate=48000 channels=2 h9=1024 h10=0 h11=0
+0 h5 0.593 s = 28460 samples, h6 -31.02
+0 h5 0.923 s = 44316 samples, h6 -30.35
+0 h5 0.999 s = 47958 samples, h6 -24.99
+0 h5 1.052 s = 50513 samples, h6 -28.73
+0 h5 1.059 s = 50850 samples, h6 -29.93
+0 h5 1.103 s = 52952 samples, h6 -26.94
+0 h5 1.106 s = 53096 samples, h6 -29.60
+0 h5 1.266 s = 60764 samples, h6 -44.53
+0 h5 1.282 s = 61524 samples, h6 -36.10
+0 h5 2.047 s = 98236 samples, h6 -46.37
+0 h5 2.994 s = 143702 samples, h6 -32.75
+0 h5 3.438 s = 165028 samples, h6 -17.51
+14 sum(table) == h8: true; table[0]=1024 non-increasing: true; h4-h7=0
+6 sum(table) == h8: true; table[0]=1024 non-increasing: true; h4-h7=1
+4 sum(table) == h8: true; table[0]=1024 non-increasing: true; h4-h7=115
+6 sum(table) == h8: true; table[0]=1024 non-increasing: true; h4-h7=13
+6 sum(table) == h8: true; table[0]=1024 non-increasing: true; h4-h7=14
+2 sum(table) == h8: true; table[0]=1024 non-increasing: true; h4-h7=4
+10 sum(table) == h8: true; table[0]=1024 non-increasing: true; h4-h7=7
+2 sum(table) == h8: true; table[0]=1024 non-increasing: true; h4-h7=76

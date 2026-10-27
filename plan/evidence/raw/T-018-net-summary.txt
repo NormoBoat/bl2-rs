@@ -1,0 +1,37 @@
+T-018 step 0 (E-UNK-14) — two original instances on one machine, LAN session. 2026-10-24.
+Build: Borderlands2.exe SHA-256 1231B384…4C17 (both copies), Steam buildid 9218157. Steam client running, one account.
+A = Steam install exe, B = project copy exe; both started by tools/research/frida-record.mjs (-windowed -ResX=960 -ResY=540).
+Capture: tshark on \Device\NPF_Loopback + Ethernet, filter "udp and not port 53/443/5353/1900",
+file .research/pcap/T-018-step0.pcapng (not committed), 883 s.
+
+Sequence
+1. A (pid 6276) Network Mode = LAN, Continue -> in game as host. B (pid 8716) reached main menu
+   ("Connection Active — connected to the Steam servers"); ~2 s later A's process ended without a WER report,
+   minidump or crash dialog (A.jsonl stops at frame 25539, Launch.log cut at the 4 KB buffer).
+   Cause UNKNOWN (open: does a second Steamworks login on the same account end the first game?).
+2. B Network Mode = LAN, Continue -> host. A restarted (pid 11884) and reached the main menu with Steam connected;
+   B stayed alive. So instance order matters only for the first attempt; the case is not reproduced yet.
+3. A Network Mode = LAN -> main menu shows FIND GAMES -> "LAN Games: Found 1 game(s)": host fffkjhgkljhlk,
+   Level 1, "My First Gun - Normal Mode", 1/4. Enter -> lobby (party 2/4) -> PLAY -> Confirm Character -> in game.
+   Both windows show the other player's name tag; A's movement (W 3 s) is visible on B.
+4. A: Pause -> Quit -> Save and Quit -> main menu; B keeps playing alone. Both processes then killed.
+Not done in step 0: level change, 10 min scenarios (09-network.md §5), LAN without Steam logged in.
+
+Traffic (tshark -z conv,udp; game-related only)
+- Discovery, UDP 14001 broadcast (192.168.1.18:14001 -> 255.255.255.255:14001), each packet seen on both interfaces:
+  query  24 B : 07 40 4dd37bff 'S''Q' be0568590cc3302a
+  answer 218 B: 07 40 4dd37bff 'S''R' be0568590cc3302a a9fe4d45 1e61 ... "BORDERLANDS2-2.0.0W" ... "fffkjhgkljhlk" ...
+  Reading (UE3 LAN beacon layout, to be confirmed by T-094 from the exe): version 0x07, platform 0x40,
+  game id 0x4dd37bff, type SQ/SR, 8-byte nonce echoed; answer carries host IP 169.254.77.69 and port 7777,
+  then the session settings / host name. Answer is broadcast too (not unicast).
+- Game connection, UDP 7777, loopback, 169.254.77.69:50719 <-> 169.254.77.69:7777, 158 s (join -> quit):
+  5933 packets; server->client 3120 / 338 KB of UDP payload, client->server 2813 / 131 KB; payload sizes:
+  34 B x2123, 23 B x2084, 14 B x595, max 776 B. First byte(s) increase by one per packet in each direction
+  (packet sequence, bit-packed); first packets 9..20 B (handshake), then bursts of 200-300 B from the server
+  (initial actor replication). Host address = the 169.254.77.69 adapter (link-local), not 192.168.1.18.
+- Other UDP in the capture is not from the game (STUN 3478/19302, SSDP, 6667/7447 broadcasts of LAN devices).
+
+Logs: Launch.log is shared; the second instance writes Launch_2.log (copies in .research/T-018/).
+Killing the process leaves only the first 4 KB (buffered) — quit through the menu to keep logs.
+Recordings: .research/T-018/A.jsonl (first A), A2.jsonl, B.jsonl.
+User saves Save0002-0006 (+ .bak; there is no Save0001) compared byte-for-byte with .research/user-data/2026-10-24-before-T018: unchanged.

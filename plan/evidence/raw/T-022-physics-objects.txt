@@ -1,0 +1,93 @@
+22 Action_DriveVehicle
+100 Action_GrabPickup
+153 Action_MoveToVehicle
+27 Action_VehicleTurret
+4 ApexDestructibleActor
+4 ApexDestructibleAsset
+2 ApexGenericAsset
+6 ApexStaticDestructibleComponent
+11 Behavior_EnterVehicle
+153 Behavior_IsObjectVehicle
+44 Behavior_PhysXLevel
+13 Behavior_SpawnFromVehicleSpawnStation
+15 Behavior_StartDeathRagdoll
+8 CarVehicleHandlingDefinition
+4 ConstraintAttributeValueResolver
+2 DownloadableVehicleDefinition
+1 FluidInfluenceComponent
+2 FluidSurfaceComponent
+12 HoverVehicleHandlingDefinition
+1 ItemPickupGFxDefinition
+13 KActor
+3852 ParticleModuleTypeDataMeshPhysX
+4520 ParticleModuleTypeDataPhysX
+1107 PhysXParticleSystem
+2140 PhysicsAsset
+2140 PhysicsAssetInstance
+57 PopulationFactoryWillowVehicle
+1 RB_BSJointSetup
+16905 RB_BodyInstance
+40150 RB_BodySetup
+6 RB_ConstraintDrawComponent
+14260 RB_ConstraintInstance
+14179 RB_ConstraintSetup
+1 RB_HingeSetup
+1 RB_PrismaticSetup
+1 RB_PulleyJointSetup
+1 RB_RadialForceActor
+1 RB_RadialImpulseActor
+2 RB_RadialImpulseComponent
+76 RB_StayUprightSetup
+54 RagdollRemovalPopulationAspect
+279 SVehicleWheel
+2 SeqAct_PhysXSwitch
+58 SeqEvent_SpawnedMissionPickup
+6 SkeletalMesh tag ClothBendStiffness
+315 SkeletalMesh tag ClothBones
+96 SkeletalMesh tag ClothDamping
+5 SkeletalMesh tag ClothHierarchicalIterations
+315 SkeletalMesh tag ClothIndexBuffer
+50 SkeletalMesh tag ClothIterations
+315 SkeletalMesh tag ClothMovementScale
+314 SkeletalMesh tag ClothSpecialBones
+6 SkeletalMesh tag ClothStretchStiffness
+2791 SkeletalMesh tag ClothTearFactor
+218 SkeletalMesh tag ClothTearReserve
+298 SkeletalMesh tag ClothThickness
+315 SkeletalMesh tag ClothToGraphicsVertMap
+315 SkeletalMesh tag ClothWeldingDomain
+315 SkeletalMesh tag NumFreeClothVerts
+272 SkeletalMesh tag bEnableClothBendConstraints
+23 SkeletalMesh tag bEnableClothDamping
+315 SkeletalMesh tag bEnableClothLineChecks
+105 SkeletalMesh tag bEnableClothSelfCollision
+315 SkeletalMesh tag bEnableClothTearing
+311 SpecialMove_Vehicle
+34 StationTeleporterVehicleExitPoint
+22 VehicleAttributeContextResolver
+3 VehicleBalanceDefinition
+64 VehicleClassDefinition
+32 VehicleCrewAnimSetLookupTable
+4 VehicleFamilyDefinition
+17 VehicleLifetimeManager
+28 VehiclePassengerExpressionEvaluator
+13 VehicleSpawnStationGFxDefinition
+144 VehicleSpawnStationPlatform
+72 VehicleSpawnStationTerminal
+12 VehicleSpawnStationVehicleDefinition
+24 VehicleWeaponTypeDefinition
+30 VehicleWheelDefinition
+57 WillowMissionPickupFailsafe
+310 WillowMissionPickupSpawner
+1 WillowSeqAct_CleanUpPlayerVehicles
+3 WillowSeqAct_ExitVehicle
+2 WillowSeqEvent_VehicleSpawned
+11 WillowVehicleCombatArea
+4 WillowVehicleControlDefinition
+73 WillowVehicleSeatDefinition
+42 WillowVehicleSimCar
+1 WillowVehicleSimChopper
+25 WillowVehicleSimHover
+1 WillowVehicleSimTank
+25 WillowVehicle_FlyingVehicle
+42 WillowVehicle_WheeledVehicle

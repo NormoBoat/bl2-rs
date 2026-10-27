@@ -1,0 +1,8 @@
+﻿tfc_files=75 names=72 ambiguous_names=["chartextures_lobelia", "lighting_lobelia", "textures_lobelia"]
+mips=792961 inline=545994 tfc=237520 tfc_bytes_decoded=69911989376 formats={"PF_A1": 137, "PF_A8R8G8B8": 1066, "PF_DXT1": 69163, "PF_DXT5": 7560, "PF_G8": 6538, "PF_V8U8": 3}
+CLASS LightMapTexture2D: 0/12040 ok Hunger_Boss.upk DominantBouncemap0_31: 4 bytes left after native data
+CLASS ShadowMapTexture2D: 4866/4866 ok 
+CLASS TerrainWeightMapTexture: 1625/1625 ok 
+CLASS Texture2D: 77970/77970 ok 
+CLASS TextureFlipBook: 6/6 ok 
+test result: FAILED. 0 passed; 1 failed; 0 ignored; 0 measured; 0 filtered out; finished in 296.39s

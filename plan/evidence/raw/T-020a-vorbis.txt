@@ -1,0 +1,82 @@
+T-020a Wwise Vorbis, 2026-10-23, buildid 9218157, exe 1231B384…4C17
+== headers_and_packets
+media=121555
+363 embedded channels=1 rate=12000
+711 embedded channels=1 rate=16000
+2235 embedded channels=1 rate=24000
+3955 embedded channels=1 rate=32000
+2888 embedded channels=1 rate=36000
+30568 embedded channels=1 rate=44100
+1551 embedded channels=1 rate=48000
+216 embedded channels=1 rate=6000
+153 embedded channels=1 rate=8000
+15 embedded channels=2 rate=12000
+6 embedded channels=2 rate=16000
+123 embedded channels=2 rate=24000
+213 embedded channels=2 rate=32000
+115 embedded channels=2 rate=36000
+2505 embedded channels=2 rate=44100
+134 embedded channels=2 rate=48000
+12 embedded channels=2 rate=6000
+5 embedded channels=2 rate=8000
+44731 embedded data complete as declared
+1037 embedded data shorter than declared
+45768 embedded last packet cut=false
+121555 first audio packet right after setup packet: true
+223 stream channels=1 rate=12000
+294 stream channels=1 rate=16000
+4727 stream channels=1 rate=24000
+30113 stream channels=1 rate=32000
+17892 stream channels=1 rate=36000
+1911 stream channels=1 rate=44100
+19919 stream channels=1 rate=48000
+61 stream channels=1 rate=6000
+60 stream channels=1 rate=8000
+32 stream channels=2 rate=12000
+14 stream channels=2 rate=16000
+32 stream channels=2 rate=24000
+12 stream channels=2 rate=32000
+24 stream channels=2 rate=36000
+188 stream channels=2 rate=44100
+220 stream channels=2 rate=48000
+30 stream channels=2 rate=6000
+35 stream channels=2 rate=8000
+75787 stream data complete as declared
+75787 stream last packet cut=false
+== decode_all (18 min)
+
+running 1 test
+codebooks=598 library bytes=71991
+44731 embedded decoded
+1037 embedded decoded (prefetch part)
+75787 stream decoded
+samples per channel=12891625357 peak=1.8759006
+test decode_all ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 3 filtered out; finished in 1118.11s
+
+
+
+[exited with code 0]
+== compare_samples vs vgmstream-cli r2117 -i (16-bit PCM)
+00: ours=19287 independent=19287 max |diff|=1
+01: ours=150552 independent=150552 max |diff|=1
+02: ours=66586 independent=66586 max |diff|=1
+03: ours=598804 independent=598804 max |diff|=1
+04: ours=42666 independent=42666 max |diff|=1
+05: ours=31272 independent=31272 max |diff|=1
+06: ours=157820 independent=157820 max |diff|=1
+07: ours=98304 independent=98304 max |diff|=1
+08: ours=63975 independent=63975 max |diff|=1
+09: ours=209012 independent=209012 max |diff|=1
+10: ours=198656 independent=198656 max |diff|=1
+11: ours=456000 independent=456000 max |diff|=1
+12: ours=268970 independent=268970 max |diff|=1
+13: ours=4601802 independent=4601802 max |diff|=1
+14: ours=221184 independent=221184 max |diff|=1
+15: ours=16786300 independent=16786300 max |diff|=2
+16: ours=16228800 independent=16228800 max |diff|=1
+17: ours=23174 independent=23174 max |diff|=1
+18: ours=6680 independent=6680 max |diff|=1
+19: ours=38312 independent=38312 max |diff|=1
+worst max |diff| = 2

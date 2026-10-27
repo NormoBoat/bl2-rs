@@ -1,0 +1,7 @@
+﻿steamclient64 = C:\Program Files (x86)\Steam\steamclient64.dll
+SteamClient012 = 0x7ffe9ba0abd0
+pipe = 1, user = 1
+SteamUtils005 = 0x1c51b370710, SteamUser016 = 0x1c51b3609c0, SteamNetworking005 = 0x1c51b370740
+GetAppID = 49520
+BLoggedOn = true, SteamID universe = 1, type = 1, nonzero = true
+RESULT SteamNetworking005 available via steamclient64 without steam_api

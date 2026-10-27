@@ -1,0 +1,10 @@
+[package]
+name = "bl2-audio"
+version = "0.1.0"
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+description = "Borderlands 2 audio: Wwise effects and playback (plan/04-architecture.md)"
+
+[dependencies]
+bl2-formats = { path = "../bl2-formats" }

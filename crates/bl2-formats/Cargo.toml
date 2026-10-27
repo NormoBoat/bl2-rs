@@ -1,0 +1,11 @@
+[package]
+name = "bl2-formats"
+version = "0.1.0"
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+description = "Readers for Borderlands 2 (UE3 v832/L46) data files from the user's own installation"
+
+[dependencies]
+lewton = { version = "=0.10.2", default-features = false }
+miniz_oxide = "0.8"

@@ -1,0 +1,8 @@
+[workspace]
+resolver = "3"
+members = ["crates/bl2-formats", "crates/bl2-sim", "crates/bl2-audio"]
+
+[workspace.package]
+edition = "2024"
+rust-version = "1.97"
+license = "MIT OR Apache-2.0"

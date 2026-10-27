@@ -1,0 +1,35 @@
+   Compiling bl2-formats v0.1.0 (D:\Projects\bl2-rs\crates\bl2-formats)
+    Finished `release` profile [optimized] target(s) in 1.52s
+     Running tests\script_scan.rs (target\release\deps\script_scan-9fe196335cb76944.exe)
+
+running 1 test
+CLASS ArrayProperty: 3769/3769 
+CLASS BoolProperty: 11529/11529 
+CLASS ByteAttributeProperty: 4/4 
+CLASS ByteProperty: 3694/3694 
+CLASS Class: 3339/3339 
+CLASS ClassProperty: 618/618 
+CLASS ComponentProperty: 857/857 
+CLASS Const: 2279/2279 
+CLASS DelegateProperty: 979/979 
+CLASS Enum: 792/792 
+CLASS FloatAttributeProperty: 454/454 
+CLASS FloatProperty: 7479/7479 
+CLASS Function: 20119/20119 
+CLASS IntAttributeProperty: 56/56 
+CLASS IntProperty: 6144/6144 
+CLASS InterfaceProperty: 1046/1046 
+CLASS MapProperty: 50/50 
+CLASS NameProperty: 2967/2967 
+CLASS ObjectProperty: 13527/13527 
+CLASS ScriptStruct: 1338/1338 
+CLASS State: 166/166 
+CLASS StrProperty: 4335/4335 
+CLASS StructProperty: 11238/11238 
+HIST class_unknown_byte=1=1462 | class_unknown_byte=10=20 | class_unknown_byte=11=17 | class_unknown_byte=12=40 | class_unknown_byte=13=39 | class_unknown_byte=14=48 | class_unknown_byte=15=1 | class_unknown_byte=16=134 | class_unknown_byte=18=28 | class_unknown_byte=19=1 | class_unknown_byte=2=33 | class_unknown_byte=20=24 | class_unknown_byte=21=2 | class_unknown_byte=22=99 | class_unknown_byte=43=3 | class_unknown_byte=44=332 | class_unknown_byte=45=344 | class_unknown_byte=46=133 | class_unknown_byte=47=14 | class_unknown_byte=5=1 | class_unknown_byte=50=389 | class_unknown_byte=6=1 | class_unknown_byte=7=13 | class_unknown_byte=8=161 | function_native=false=19920 | function_native=true=199 | state_flags=0=129 | state_flags=2=11 | state_flags=4=25 | state_flags=6=1
+bytecode_functions=20119 bytecode_bytes=1883031 walked_ok=20384
+OPCODES 00:34447 01:53088 02:466 03:8 04:19114 05:399 06:6590 07:18726 08:166 09:6 0a:2372 0b:20788 0c:85 0d:45 0e:313 0f:19896 10:3846 11:225 12:2465 13:23 14:2340 16:302 17:1626 18:6206 19:32265 1a:902 1b:20714 1c:12441 1d:1285 1e:2580 1f:6218 20:3757 21:4082 22:38 23:269 24:5680 25:3491 26:1693 27:4234 28:3789 29:9812 2a:10118 2c:1769 2d:8085 2e:3550 2f:407 30:867 31:827 32:51 33:26 35:7966 36:2072 37:52 38:7881 39:26 3a:3607 3b:4 3c:46 3d:6 3f:51 40:208 42:138 43:819 44:331 45:561 46:320 47:96 48:2076 49:850 4a:9098 4b:7 4c:8903 4d:2173 4e:285 4f:2936 50:18953 51:1640 52:863 53:20384 54:12 55:394 56:26 57:4 58:394 59:1 5a:1 5e:357 5f:123
+test every_script_definition_parses ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 41.05s
+

@@ -1,0 +1,29 @@
+{
+  "command": "BL2_INSTALL=<project>/Borderlands 2; cargo test -p bl2-formats --release --test property_scan -- --ignored --nocapture",
+  "exe_sha256": "1231B384AEA791BC51286664627D03E27D6A77FFD4EC3BB5001186C136504C17",
+  "exports": "exports=4751329 script_definitions_skipped=96779 failed=0 tags=23062322 classes=3354 classes_not_in_tree=13",
+  "scalars": {
+    "BoolProperty": 3038650,
+    "ByteProperty": 2390825,
+    "DelegateProperty": 6,
+    "FloatProperty": 1804897,
+    "IntProperty": 3648713,
+    "InterfaceProperty": 108,
+    "NameProperty": 1185338,
+    "ObjectProperty": 2747129,
+    "StrProperty": 544510
+  },
+  "scalar_total": 15360176,
+  "unsupported": {
+    "ArrayProperty": 1982296,
+    "FloatAttributeProperty": 242,
+    "IntAttributeProperty": 8,
+    "StructProperty": 5719600
+  },
+  "unsupported_total": 7702146,
+  "unresolved_object_total": 6011,
+  "unresolved_raw_min": "f0000000",
+  "unresolved_raw_max": "f007000e",
+  "scalar_errors": {},
+  "result": "test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 31.29s"
+}

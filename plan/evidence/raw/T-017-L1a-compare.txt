@@ -1,0 +1,15 @@
+T-017 scenario L-1a (keyboard only), 2026-10-24, Steam buildid 9218157, exe 1231B384…4C17
+launch: node tools/research/frida-record.mjs <out> Borderlands2.exe -windowed -ResX=1280 -ResY=720 (Frida 17)
+script (computer use): +35 s Enter; +30 s Down Enter (New Game); intro not skipped; class select (~305 s) Enter; +6 s Enter (confirm Axton); +70 s Enter; +5 s Enter; +4 s; 10 x [W 6 s, A 2 s, W 6 s, Space, D 2 s, wait 13 s] in two batches of 5; Esc Quit Save-and-Quit; main menu Quit Yes
+aligned on first W key-down, 300 s:
+A: frames 17998, wall 299.996 s, sum dt 300.012 s, rand calls 60560 (201.9/s), key events 100
+   dt {"n":17998,"mean":0.016669,"min":0.016667,"p50":0.016667,"p99":0.016677,"max":0.042429}
+B: frames 18000, wall 299.998 s, sum dt 300.015 s, rand calls 60505 (201.7/s), key events 100
+   dt {"n":18000,"mean":0.016667,"min":0.016667,"p50":0.016667,"p99":0.016677,"max":0.018483}
+key events paired 100, different key at same index 0
+key timing B-A (s): {"n":100,"mean":1.136122,"min":0,"p50":2.219041,"p99":2.28897,"max":2.28897}
+key timing |B-A| in frames: {"n":100,"mean":69.51,"min":0,"p50":135,"p99":139,"max":139}
+rand calls per wall second |B-A|: {"n":300,"mean":8.57,"min":0,"p50":6,"p99":46,"max":53}
+batch 1 events 50 max |jitter| s 0.0395 mean 0.0200 frames max 4
+batch 2 events 50 max |jitter| s 0.0534 mean 0.0217 frames max 3
+batch2 start offset vs batch1 start: A 162.168 B 164.441

@@ -1,0 +1,25 @@
+T-020 Wwise inventory, 2026-10-22, buildid 9218157
+command: cargo test -p bl2-formats --release --test wwise_scan -- --ignored --nocapture
+{"hirc type 10 -> empty": 77, "hirc type 11 -> empty": 71, "hirc type 12 -> empty": 30, "hirc type 13 -> empty": 77, "hirc type 14 -> empty": 1874, "hirc type 18 -> non-RIFF": 49, "hirc type 19 -> empty": 6, "hirc type 19 -> non-RIFF": 1, "hirc type 2 -> empty": 14943, "hirc type 3 -> empty": 1179, "hirc type 4 -> empty": 41, "hirc type 5 -> empty": 3196, "hirc type 6 -> empty": 67, "hirc type 7 -> empty": 1208, "hirc type 9 -> empty": 25}
+hirc type 18 -> non-RIFF plugin [03, 00, 7f, 00, 30, 00, 00, 00] sizes=[385760, 629168, 630592, 655488, 671616, 727264]
+hirc type 19 -> non-RIFF plugin [03, 00, 7f, 00, 30, 00, 00, 00] sizes=[352528]
+test odd_media_owners ... ok
+pck=68 languages={"english(us)", "french(france)", "german", "italian", "japanese", "sfx", "spanish(spain)"} banks=284 (distinct 225) streams=75787 embedded=45852 externals=0
+bank versions {62: 284}
+chunks {"BKHD": 284, "DATA": 226, "DIDX": 226, "ENVS": 12, "HIRC": 284, "STID": 270, "STMG": 12}
+  embedded RIFF fmt 0xffff: 45768
+  embedded non-RIFF [00, 04, 00, 00]: 50
+  embedded non-RIFF []: 34
+  stream RIFF fmt 0xffff: 75787
+distinct media ids=43257
+empty media ids: also streamed=0, also embedded with data=0
+test all_packages ... ok
+AkBank objects=12 matching bank ids=11 (pck banks 225); AkEvent objects=15938 matching HIRC events=15935 (HIRC events 15935)
+  bank without pck: AkBank_a_Sage_Music
+STID bank names=222 e.g. ["a_efx_internal_lg_cave_pc", "a_efx_internal_lg_long_pc", "a_efx_internal_md_slap_pc", "a_efx_internal_sm_room_pc", "a_efx_reverb_exterior_glacial_tundra_pc", "a_efx_reverb_exterior_open_pc", "a_efx_reverb_interior_hallway_pc", "a_efx_reverb_interior_lg_metallic_pc"]
+  event without HIRC: Ak_Play_UI_Title_Vol_Slider_Music
+  event without HIRC: Ak_Play_VOSQ_Aster_Winter_13_Lilith_meta
+  event without HIRC: Ak_Stop_UI_Title_Vol_Slider_Music
+test objects_link_to_banks_and_events ... ok
+test result: ok. 3 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 28.05s
+vorbis setup packet sizes (node scratch script over Audio_Streaming.pck and Audio_Streaming_allium.pck, 607 streams): min 74, median 203, max 224 bytes; fmt size 66 in all

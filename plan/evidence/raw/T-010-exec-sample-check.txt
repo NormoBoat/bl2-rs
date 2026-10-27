@@ -1,0 +1,11 @@
+﻿03-UAIFactoryBaseexecFlushPools: FUN_01240050 lines=15 frame+0x18=true EX_DebugInfo=true
+04-UWillowGFxMovieCreditsexecGetNewCreditsDef: FUN_0127f090 lines=17 frame+0x18=true EX_DebugInfo=true
+05-UUIDataStore_OnlinePlaylistsexecGetProviderFieldValue: FUN_00e56170 lines=55 frame+0x18=true EX_DebugInfo=true
+06-AActorexecConsoleCommand: FUN_007b68a0 lines=56 frame+0x18=false EX_DebugInfo=true
+07-UPlayerSkillTreeexecInitializeGFxHelper_ActionAbility: FUN_0125c310 lines=18 frame+0x18=true EX_DebugInfo=true
+08-AWorldInfoexecGetAddressURL: FUN_007bbdb0 lines=36 frame+0x18=true EX_DebugInfo=true
+09-UGearboxGlobalsexecRegisterStateKey: FUN_00d50db0 lines=32 frame+0x18=true EX_DebugInfo=true
+10-UObjectexecFlagTimeSinceRaised: FUN_004f6e30 lines=25 frame+0x18=true EX_DebugInfo=true
+11-UDialogNameTagExpressionEvaluatorexecEvaluate: FUN_01249b20 lines=20 frame+0x18=true EX_DebugInfo=true
+12-UWillowLeviathanServiceexecRecordCharacterLoadedEventForPlayer: FUN_012bd0d0 lines=44 frame+0x18=false EX_DebugInfo=true
+exec-shaped: 8/10

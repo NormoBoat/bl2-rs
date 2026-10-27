@@ -1,0 +1,17 @@
+T-034 Mancana remaster textures, 2026-10-25. Code: crates/bl2-formats/src/mancana.rs.
+== cargo test --release -p bl2-formats --test texture_scan mancana_remaster_textures -- --ignored --nocapture
+      1 format PF_A1
+   2396 format PF_DXT1
+    141 format PF_DXT5
+  17532 inline size matches format: true
+    188 tfc DLC\Mancana\Compat\Content\Patch\Startup_Patch0_mancana.tfc
+   1874 tfc DLC\Mancana\Lic\Textures\Textures0_mancana.tfc
+   2331 tfc DLC\Mancana\Lic\Textures\Textures1_mancana.tfc
+   1732 tfc DLC\Mancana\Lic\Textures\Textures2_mancana.tfc
+   1519 tfc DLC\Mancana\Lic\Textures\Textures3_mancana.tfc
+   3124 tfc DLC\Mancana\Lic\Textures\Textures4_mancana.tfc
+   1258 tfc DLC\Mancana\Lic\Textures\Textures5_mancana.tfc
+  12026 tfc size matches format: true
+      4 unused
+2538 records
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 1 filtered out; finished in 38.35s

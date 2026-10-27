@@ -1,0 +1,58 @@
+T-032a value scan, 2026-10-22, exe SHA-256 1231B384...4C17, buildid 9218157
+command: cargo test -p bl2-formats --release --test value_scan -- --ignored --nocapture class_defaults every_composite_value
+classes=3339 without_cdo=0 effective_tags=37785 inherited=27436 untyped=1896
+test class_defaults ... ok
+test every_composite_value has been running for over 60 seconds
+packages=2008 top=23062322 scalar=116945740 arrays=4601735 structs=8869763 immutable=6853407 unresolved=6011 untyped_decoded=5206473 untyped_raw=104171
+untyped paths=4150
+ERRORS {}
+test every_composite_value ... ok
+test result: ok. 2 passed; 0 failed; 0 ignored; 0 measured; 4 filtered out; finished in 174.28s
+untyped raw paths (all ArrayProperty, absent from runtime schema):
+UNTYPED decoded=0 raw=53596 Engine.MaterialInstanceConstant.ReferencedTextureGuids ArrayProperty
+UNTYPED decoded=0 raw=32628 Engine.Material.ReferencedTextureGuids ArrayProperty
+UNTYPED decoded=0 raw=3061 GearboxFramework.BehaviorProviderDefinition.ImplementedCustomEvents ArrayProperty
+UNTYPED decoded=0 raw=2735 GearboxFramework.GearboxDialogGroup.PackageNames ArrayProperty
+UNTYPED decoded=0 raw=2582 GearboxFramework.CompoundExpressionEvaluator.ChildrenY ArrayProperty
+UNTYPED decoded=0 raw=2122 Engine.DecalMaterial.ReferencedTextureGuids ArrayProperty
+UNTYPED decoded=0 raw=2000 Engine.MaterialInstanceTimeVarying.ReferencedTextureGuids ArrayProperty
+UNTYPED decoded=0 raw=1690 Engine.ExpressionTree.ChildrenY ArrayProperty
+UNTYPED decoded=0 raw=1400 GearboxFramework.AIBehaviorProviderDefinition.ImplementedCustomEvents ArrayProperty
+UNTYPED decoded=0 raw=808 WillowGame.MissionDefinition.SupportedCustomEvents ArrayProperty
+UNTYPED decoded=0 raw=565 WillowGame.MissionDefinition.SupportedRemoteEvents ArrayProperty
+UNTYPED decoded=0 raw=557 WillowGame.Behavior_RandomBranch.NameOverrides ArrayProperty
+UNTYPED decoded=0 raw=91 Engine.WorldInfo.LevelGroups ArrayProperty
+UNTYPED decoded=0 raw=62 WillowGame.VehicleClassDefinition.SpecializedSeatEvents ArrayProperty
+UNTYPED decoded=0 raw=49 Engine.InterpTrackMove.SubTrackGroups ArrayProperty
+UNTYPED decoded=0 raw=35 GearboxFramework.GearboxDialogTemplateGroup.PackageNames ArrayProperty
+UNTYPED decoded=0 raw=16 Engine.SeqAct_Switch.LinkNames ArrayProperty
+UNTYPED decoded=0 raw=1 Engine.SeqAct_AIMoveToActor.ObjRemoveInProject ArrayProperty
+UNTYPED decoded=0 raw=1 GearboxFramework.Behavior_CompareBool.OutputLinks ArrayProperty
+UNTYPED decoded=0 raw=1 GearboxFramework.Behavior_CompareValues.OutputLinks ArrayProperty
+UNTYPED decoded=0 raw=1 GearboxFramework.Behavior_Gate.OutputLinks ArrayProperty
+UNTYPED decoded=0 raw=1 GearboxFramework.Behavior_InterpolateFloatOverTime.OutputLinks ArrayProperty
+UNTYPED decoded=0 raw=1 GearboxFramework.Behavior_IsSequenceEnabled.OutputLinks ArrayProperty
+UNTYPED decoded=0 raw=1 GearboxFramework.Behavior_Metronome.OutputLinks ArrayProperty
+UNTYPED decoded=0 raw=1 GearboxFramework.Behavior_PostAkEvent.OutputLinks ArrayProperty
+UNTYPED decoded=0 raw=1 GearboxFramework.Behavior_SpecialMove.OutputLinks ArrayProperty
+UNTYPED decoded=0 raw=1 GearboxFramework.Behavior_TriggerDialogEvent.OutputLinks ArrayProperty
+UNTYPED decoded=0 raw=1 WillowGame.Behavior_CompareFloat.OutputLinks ArrayProperty
+UNTYPED decoded=0 raw=1 WillowGame.Behavior_CompareInt.OutputLinks ArrayProperty
+UNTYPED decoded=0 raw=1 WillowGame.Behavior_CompareObject.OutputLinks ArrayProperty
+UNTYPED decoded=0 raw=1 WillowGame.Behavior_DamageClassSwitch.OutputLinks ArrayProperty
+UNTYPED decoded=0 raw=1 WillowGame.Behavior_DamageSourceSwitch.OutputLinks ArrayProperty
+UNTYPED decoded=0 raw=1 WillowGame.Behavior_DamageSurfaceTypeSwitch.OutputLinks ArrayProperty
+UNTYPED decoded=0 raw=1 WillowGame.Behavior_FireShot.OutputLinks ArrayProperty
+UNTYPED decoded=0 raw=1 WillowGame.Behavior_HasMissions.OutputLinks ArrayProperty
+UNTYPED decoded=0 raw=1 WillowGame.Behavior_IsCensoredMode.OutputLinks ArrayProperty
+UNTYPED decoded=0 raw=1 WillowGame.Behavior_IsObjectPlayer.OutputLinks ArrayProperty
+UNTYPED decoded=0 raw=1 WillowGame.Behavior_IsObjectVehicle.OutputLinks ArrayProperty
+UNTYPED decoded=0 raw=1 WillowGame.Behavior_NetworkRoleSwitch.OutputLinks ArrayProperty
+UNTYPED decoded=0 raw=1 WillowGame.Behavior_ObjectClassSwitch.OutputLinks ArrayProperty
+UNTYPED decoded=0 raw=1 WillowGame.Behavior_OpinionSwitch.OutputLinks ArrayProperty
+UNTYPED decoded=0 raw=1 WillowGame.Behavior_PhysXLevel.OutputLinks ArrayProperty
+UNTYPED decoded=0 raw=1 WillowGame.Behavior_PostAkEventGetRTPC.OutputLinks ArrayProperty
+UNTYPED decoded=0 raw=1 WillowGame.Behavior_QueryDayNightCycle.OutputLinks ArrayProperty
+UNTYPED decoded=0 raw=1 WillowGame.Behavior_SpawnProjectile.OutputLinks ArrayProperty
+UNTYPED decoded=0 raw=1 WillowGame.Behavior_StatusEffectSwitch.OutputLinks ArrayProperty
++ 145 Engine.MaterialExpression*.MenuCategories paths, raw=1 each

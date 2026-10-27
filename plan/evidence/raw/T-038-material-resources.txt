@@ -1,0 +1,25 @@
+1 DecalMaterial: no resource (uses its parent's)
+2122 DecalMaterial: resource with cached shader map
+1 Material: no resource (uses its parent's)
+35100 Material: resource with cached shader map
+1 MaterialInstance: no resource (uses its parent's)
+14638 MaterialInstanceConstant: no resource (uses its parent's)
+6457 MaterialInstanceConstant: resource WITHOUT shader map, no static overrides
+8191 MaterialInstanceConstant: resource WITHOUT shader map, overrides static parameters
+4593 MaterialInstanceConstant: resource with cached shader map, no static overrides
+20231 MaterialInstanceConstant: resource with cached shader map, overrides static parameters
+8105 MaterialInstanceConstant: static parameter set is NOT a key of the shader cache
+31367 MaterialInstanceConstant: static parameter set is a key of the shader cache
+10511 MaterialInstanceConstant: static parameters MISMATCH
+14313 MaterialInstanceConstant: static parameters equal a key of the id
+1337 MaterialInstanceTimeVarying: no resource (uses its parent's)
+439 MaterialInstanceTimeVarying: resource WITHOUT shader map, no static overrides
+47 MaterialInstanceTimeVarying: resource with cached shader map, no static overrides
+179 MaterialInstanceTimeVarying: resource with cached shader map, overrides static parameters
+665 MaterialInstanceTimeVarying: static parameter set is a key of the shader cache
+226 MaterialInstanceTimeVarying: static parameters equal a key of the id
+1 MaterialInterface: no resource (uses its parent's)
+1 Terrain: no resource (uses its parent's)
+2690 Terrain: resource with cached shader map
+cached material ids used by objects: 6393/13438
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 1 filtered out; finished in 23.45s

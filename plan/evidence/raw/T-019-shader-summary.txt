@@ -1,0 +1,24 @@
+T-019 shader inventory, 2026-10-22, exe SHA-256 1231B384...4C17 (buildid 9218157)
+commands: node tools/research/pe-imports.mjs <exe> plan/evidence/raw/T-019-exe-imports.json; cargo test -p bl2-formats --release --test shader_cache_scan -- --ignored --nocapture
+global: platform=0 shaders=253 code_bytes=333858 types_used=253 type_crcs=253 vf_crcs=0 materials=0 global_refs=253
+  platform=0 frequency=0 not-d3d9: 1
+  platform=0 frequency=0 vs_3_0: 57
+  platform=0 frequency=3 ps_3_0: 194
+  platform=3 frequency=0 not-d3d9: 1
+  not D3D9 bytecode: FBinkYCrCbAToRGBAPixelShader code=1 bytes
+  not D3D9 bytecode: FBinkYCrCbToRGBNoPixelAlphaPixelShader code=1 bytes
+RefShaderCache: platform=0 shaders=83026 code_bytes=161305948 types_used=106 type_crcs=106 vf_crcs=28 materials=13997 global_refs=0
+  platform=0 frequency=0 vs_3_0: 14324
+  platform=0 frequency=3 ps_3_0: 68702
+material maps=13997 distinct material ids=13438 shader refs=603540 distinct referenced=83026 unreferenced=0
+vertex factories: {"FFluidTessellationVertexFactory": 21, "FFluidVertexFactory": 21, "FFoliageVertexFactory": 208, "FGPUSkinDecalVertexFactory": 219, "FGPUSkinMorphDecalVertexFactory": 219, "FGPUSkinMorphVertexFactory": 27, "FGPUSkinVertexFactory": 1292, "FGPUSkinVertexFactoryApexClothing": 42, "FGPUSkinVertexFactoryApexDestructible": 42, "FInstancedStaticMeshVertexFactory": 26, "FLandscapeDecalVertexFactory": 245, "FLandscapeVertexFactory": 36, "FLensFlareVertexFactory": 53, "FLocalDecalVertexFactory": 245, "FLocalVertexFactory": 6833, "FLocalVertexFactoryApex": 42, "FParticleBeamTrailDynamicParameterVertexFactory": 53, "FParticleBeamTrailVertexFactory": 394, "FParticleDynamicParameterVertexFactory": 295, "FParticleInstancedMeshVertexFactory": 118, "FParticlePointSpriteVertexFactory": 1494, "FParticleSubUVDynamicParameterVertexFactory": 175, "FParticleSubUVVertexFactory": 1013, "FParticleVertexFactory": 1494, "FSplineMeshVertexFactory": 44, "FTerrainDecalVertexFactory": 245, "FTerrainVertexFactory": 7185, "FWireVertexFactory": 59}
+test shader_caches ... ok
+DecalMaterial: objects=2123 with_cached_map_id=2122 id_hits=2122
+Material: objects=35101 with_cached_map_id=35100 id_hits=35100
+MaterialInstance: objects=1 with_cached_map_id=0 id_hits=0
+MaterialInstanceConstant: objects=54110 with_cached_map_id=39472 id_hits=64296
+MaterialInstanceTimeVarying: objects=2002 with_cached_map_id=665 id_hits=891
+MaterialInterface: objects=1 with_cached_map_id=0 id_hits=0
+cached material ids found in material objects: 3743/13438
+test materials_link_to_shader_maps ... ok
+test result: ok. 2 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 26.03s

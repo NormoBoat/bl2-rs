@@ -1,0 +1,17 @@
+# Original game files: user's local install, never distributed (plan/06-assets.md §1).
+/Borderlands 2/
+# Third-party research tools and their downloads.
+/.tools/
+# REA/Ghidra snapshots, decompiled output, extracted assets: derived from original binaries, local only.
+/.research/
+/target/
+# Local agent and research setup, not needed to build the project.
+/AGENTS.md
+/CLAUDE.md
+/.mcp.json
+/.mcp.json.tmp
+/.codex/
+/.claude/
+/.agents/
+/.idea/
+/tools/

@@ -1,0 +1,107 @@
+T-036 animation sequences, 2026-10-25. Code: crates/bl2-formats/src/anim.rs; tests crates/bl2-formats/tests/anim_scan.rs.
+== cargo test --release -p bl2-formats --test anim_scan anim_survey -- --ignored --nocapture
+ 100601 AnimSequence
+      1 AnimSequence (class default)
+    328 AnimSequence formats ["TranslationCompressionFormat=ACF_Delta48NoW", "RotationCompressionFormat=ACF_Delta48NoW"]
+   3205 AnimSequence formats ["TranslationCompressionFormat=ACF_Identity", "RotationCompressionFormat=ACF_Identity", "KeyEncodingFormat=AKF_PerTrackCompression"]
+    177 AnimSequence formats ["TranslationCompressionFormat=ACF_IntervalFixed32NoW", "RotationCompressionFormat=ACF_PolarEncoded32", "KeyEncodingFormat=AKF_VariableKeyLerp"]
+  95638 AnimSequence formats ["TranslationCompressionFormat=ACF_IntervalFixed32NoW", "RotationCompressionFormat=ACF_PolarEncoded32"]
+   1253 AnimSequence formats ["TranslationCompressionFormat=ACF_IntervalFixed32NoW", "RotationCompressionFormat=ACF_PolarEncoded48"]
+ 100601 AnimSequence tail: lead 0, 8 + count true
+   4528 AnimSet
+      1 AnimSet (class default)
+   4528 AnimSet tail empty
+    305 AnimTree
+      1 AnimTree (class default)
+    305 AnimTree tail empty
+      7 MorphTarget
+      1 MorphTarget (class default)
+      7 MorphTarget tail 131072 bytes class
+      7 MorphTargetSet
+      1 MorphTargetSet (class default)
+      7 MorphTargetSet tail 4 bytes class
+   2140 PhysicsAsset
+      1 PhysicsAsset (class default)
+   2140 PhysicsAsset tail empty
+   3911 SkeletalMesh
+      1 SkeletalMesh (class default)
+     15 SkeletalMesh tail 1024 bytes class
+     60 SkeletalMesh tail 1048576 bytes class
+    607 SkeletalMesh tail 131072 bytes class
+    303 SkeletalMesh tail 16384 bytes class
+     28 SkeletalMesh tail 2048 bytes class
+     11 SkeletalMesh tail 2097152 bytes class
+    632 SkeletalMesh tail 262144 bytes class
+    844 SkeletalMesh tail 32768 bytes class
+    172 SkeletalMesh tail 4096 bytes class
+      3 SkeletalMesh tail 512 bytes class
+    278 SkeletalMesh tail 524288 bytes class
+    765 SkeletalMesh tail 65536 bytes class
+    193 SkeletalMesh tail 8192 bytes class
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 6 filtered out; finished in 21.12s
+== cargo test --release -p bl2-formats --test anim_scan decode_coverage -- --ignored --nocapture
+    328 ACF_Delta48NoW/ACF_Delta48NoW/AKF_ConstantKeyLerp: decoded
+   3205 ACF_Identity/ACF_Identity/AKF_PerTrackCompression: decoded
+  95638 ACF_IntervalFixed32NoW/ACF_PolarEncoded32/AKF_ConstantKeyLerp: decoded
+    177 ACF_IntervalFixed32NoW/ACF_PolarEncoded32/AKF_VariableKeyLerp: decoded
+   1253 ACF_IntervalFixed32NoW/ACF_PolarEncoded48/AKF_ConstantKeyLerp: decoded
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 6 filtered out; finished in 99.48s
+== cargo test --release -p bl2-formats --test anim_scan per_track_headers -- --ignored --nocapture
+     675 rotation format 1 flags 0x7 keys 1
+    6596 rotation format 1 flags 0x7 keys 2+
+    1068 rotation format 1 flags 0xf keys 2+
+   40228 rotation format 10 flags 0x7 keys 1
+   17143 rotation format 10 flags 0x7 keys 2+
+   11929 rotation format 10 flags 0xf keys 2+
+   32327 rotation format 9 flags 0x7 keys 1
+   21830 rotation format 9 flags 0x7 keys 2+
+   26823 rotation format 9 flags 0xf keys 2+
+   51919 translation format 1 flags 0x1 keys 1
+     405 translation format 1 flags 0x1 keys 2+
+     954 translation format 1 flags 0x2 keys 1
+      35 translation format 1 flags 0x2 keys 2+
+    4829 translation format 1 flags 0x3 keys 1
+     639 translation format 1 flags 0x3 keys 2+
+    1090 translation format 1 flags 0x4 keys 1
+     293 translation format 1 flags 0x4 keys 2+
+    1361 translation format 1 flags 0x5 keys 1
+      43 translation format 1 flags 0x5 keys 2+
+     264 translation format 1 flags 0x6 keys 1
+      17 translation format 1 flags 0x6 keys 2+
+   40383 translation format 1 flags 0x7 keys 1
+   10883 translation format 1 flags 0x7 keys 2+
+     154 translation format 1 flags 0x9 keys 2+
+      44 translation format 1 flags 0xa keys 2+
+     335 translation format 1 flags 0xb keys 2+
+     454 translation format 1 flags 0xc keys 2+
+      47 translation format 1 flags 0xd keys 2+
+       3 translation format 1 flags 0xe keys 2+
+    2314 translation format 1 flags 0xf keys 2+
+     670 translation format 3 flags 0x3 keys 2+
+     159 translation format 3 flags 0x5 keys 2+
+     123 translation format 3 flags 0x6 keys 2+
+   34348 translation format 3 flags 0x7 keys 2+
+     155 translation format 3 flags 0xb keys 2+
+      47 translation format 3 flags 0xd keys 2+
+      16 translation format 3 flags 0xe keys 2+
+    2651 translation format 3 flags 0xf keys 2+
+    3984 translation identity (-1)
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 6 filtered out; finished in 21.25s
+== cargo test --release -p bl2-formats --test anim_scan keys_match_original -- --ignored --nocapture
+polar32: 17599 keys, 17579 bit-exact, max abs error 5.9604645e-8
+polar48: 3436 keys, 3436 bit-exact, max abs error 0e0
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 6 filtered out; finished in 0.04s
+== ANIM_POSES=.research/T-036/poses.txt poses_match_original
+key format 0 rotation format 10: 9074 bone samples, 9074 bit-exact, max abs error 0e0
+key format 0 rotation format 9: 72444 bone samples, 72395 bit-exact, max abs error 1.1920929e-7
+key format 0 translation format 3: 81518 bone samples, 81518 bit-exact, max abs error 0e0
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 6 filtered out; finished in 0.15s
+== ANIM_POSES=.research/T-036/poses2.txt poses_match_original
+key format 0 rotation format 10: 39354 bone samples, 39354 bit-exact, max abs error 0e0
+key format 0 rotation format 9: 40001 bone samples, 39994 bit-exact, max abs error 2.9802322e-8
+key format 0 translation format 3: 79341 bone samples, 79341 bit-exact, max abs error 0e0
+key format 1 rotation format 9: 35 bone samples, 35 bit-exact, max abs error 0e0
+key format 1 translation format 3: 35 bone samples, 35 bit-exact, max abs error 0e0
+key format 2 rotation format 8: 68772 bone samples, 68771 bit-exact, max abs error 1.4901161e-8
+key format 2 translation format 8: 68772 bone samples, 68772 bit-exact, max abs error 0e0
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 6 filtered out; finished in 0.34s

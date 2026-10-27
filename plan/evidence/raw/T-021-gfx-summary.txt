@@ -1,0 +1,16 @@
+T-021 Scaleform movies, 2026-10-22, buildid 9218157
+command: cargo test -p bl2-formats --release --test gfx_scan -- --ignored --nocapture
+distinct movies=500
+  SwfMovie sig=CFX version=10: 26 movies, 24037 bytes
+  SwfMovie sig=CFX version=11: 351 movies, 408341 bytes
+  SwfMovie sig=CFX version=15: 49 movies, 70058 bytes
+  SwfMovie sig=CFX version=17: 5 movies, 7179 bytes
+  SwfMovie sig=CFX version=36: 1 movies, 4582 bytes
+  SwfMovie sig=CFX version=8: 37 movies, 5074286 bytes
+  SwfMovie sig=CFX version=9: 29 movies, 1053814 bytes
+  SwfMovie sig=GFX version=8: 2 movies, 2900 bytes
+movies=500 versions={8: 39, 9: 29, 10: 26, 11: 351, 15: 49, 17: 5, 36: 1}
+tags {1: 32385, 2: 1482, 9: 500, 11: 2, 12: 3822, 22: 74, 26: 40766, 28: 3424, 32: 211, 37: 671, 39: 3150, 43: 3459, 46: 33, 56: 2145, 59: 1306, 69: 500, 70: 621, 71: 269, 74: 523, 77: 468, 78: 34, 83: 452, 84: 13, 1000: 500, 1005: 19, 1008: 482, 1009: 805}
+as2 opcodes (61) ["0x05:26", "0x06:305", "0x07:2924", "0x0b:1836", "0x0c:940", "0x0d:631", "0x12:20640", "0x14:7", "0x17:30058", "0x1c:25999", "0x1d:3539", "0x22:18", "0x23:13", "0x26:43", "0x2b:197", "0x30:81", "0x34:64", "0x3a:478", "0x3c:1943", "0x3d:1467", "0x3e:7182", "0x3f:29", "0x40:2640", "0x41:5", "0x42:909", "0x43:1726", "0x44:119", "0x45:162", "0x47:2335", "0x48:1475", "0x49:6871", "0x4a:18", "0x4b:22", "0x4c:2833", "0x4e:60395", "0x4f:29961", "0x50:872", "0x51:121", "0x52:20371", "0x53:401", "0x54:251", "0x55:113", "0x60:658", "0x61:192", "0x62:39", "0x63:155", "0x64:227", "0x66:1652", "0x67:921", "0x69:636", "0x81:2", "0x87:10829", "0x88:2312", "0x8c:126", "0x8e:9193", "0x96:162560", "0x99:4940", "0x9a:1", "0x9b:1291", "0x9d:18101", "0x9f:6"]
+clip action records: 357
+movies naming ExternalInterface: 51; naming FSCommand: 0
